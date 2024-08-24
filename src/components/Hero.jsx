@@ -35,7 +35,7 @@ const Hero = () => {
             animate="visible"
             className='pb-16 text-4xl font-thin tracking-tight lg:mt-4 lg:text-6xl '
           >
-            Ajay Krishnan U.E
+            Ajay Krishnan U.E 
           </motion.h1>
           <motion.span
             variants={container(0.5)}
