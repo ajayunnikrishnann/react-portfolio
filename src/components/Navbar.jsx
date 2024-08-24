@@ -13,11 +13,12 @@ const Navbar = () => {
     <>
       <nav className='mb-20 flex items-center justify-between py-6'>
         <div className='flex flex-shrink-0 items-center'>
-          <img src={logo} alt='logo' className='mx-2 w-20'/>
-          <h1 className='text-2xl font-bold mb-1'>Portfolio</h1>
+          <img src={logo} alt='logo' className='mx-1 w-20'/>
+          <h1 className='text-2xl font-bold  mb-1'>Portfolio</h1>
         </div>
         
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+        
           <a href="https://www.linkedin.com/in/ajaykrishnanue/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
             <FaLinkedin />
           </a>
@@ -27,17 +28,15 @@ const Navbar = () => {
           <a href="https://leetcode.com/u/ajay_unnikrishnan/" target="_blank" rel="noopener noreferrer" title="LeetCode">
             <FaCode />
           </a>
-          <a href="mailto:ajaykrishnan1968@gmail.com" title="ajaykrishnan1968@gmail.com">
-            <FaEnvelope />
-          </a>
-          
           <img 
             src={profilePhoto} 
             alt="Profile" 
-            className='w-12 h-12 rounded-full cursor-pointer border-2 border-gray-300 hover:border-gray-500' 
+            className='w-10 h-10  rounded-full cursor-pointer border-2 border-gray-300 hover:border-gray-500' 
             onClick={openModal} 
             title="Profile"
           />
+          
+       
         </div>
       </nav>
 
