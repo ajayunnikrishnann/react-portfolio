@@ -33,7 +33,7 @@ export const PROJECTS = [
       description:
         "Property Scanner is a property portal real estate platform aimed at assisting clients in buying, selling, and renting properties in the most desirable neighborhoods. The front-end is seamlessly integrated with React, while the back-end is in Node.js and it’s framework Express, by following the principles of MVC Architecture and MongoDB as the database.",
       technologies: ["MongoDB", "Node JS", "Express Js", "React Js", "Redux", "Node JS", "Node mailer", "Cloudinary", "Tailwind Css", "Jwt", "Socket.io", "Stripe", "Firebase", "AWS EC2", "NGINX", ],
-      liveLink: 'https://www.propertyscanner.ajayunnikrishnan.live/',
+      liveLink: 'https://www.propertyscanner.ajayunnikrishnan.shop/',
       githubLink: 'https://github.com/ajayunnikrishnann/PropertyScanner.git'
     },
     {
@@ -42,7 +42,7 @@ export const PROJECTS = [
     description:
       "Focus Frames is an e-commerce website for purchasing all types of cameras . Includes User side and Admin side for ensuring the perfection of a full functional e-commerce website.",
     technologies: ["MongoDB", "Node JS", "Express", "AWS EC2", "NGINX", "Twilio", "EJS", "Bootstrap", "HTML & CSS", "JWT"],
-    liveLink: 'https://ajayunnikrishnan.live/',
+    liveLink: 'https://ajayunnikrishnan.shop/',
     githubLink: 'https://github.com/ajayunnikrishnann/FocusFrames.git'
   },
   
